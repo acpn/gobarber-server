@@ -10,3 +10,4 @@ container.registerSingleton<IHashProvider>(
   'HashProvider',
   BCryptHashProvider
 );
+
