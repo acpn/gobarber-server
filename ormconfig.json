@@ -1,9 +1,9 @@
 {
   "type": "postgres",
-  "host": "localhost",
+  "host": "172.17.0.2",
   "port": 5432,
-  "username": "postgres",
-  "password": "admin123",
+  "username": "admin",
+  "password": "admin",
   "database": "gobarber",
   "entities": [
     "./src/modules/**/infra/typeorm/entities/*ts"
